@@ -1,0 +1,163 @@
+
+  
+  /* My original code was RIDICULOUS. I had way too many #id selectors and my nav wouldn't cooperate. I used the code from the solution to clean it up. I've added my original code below it.*/ 
+  /* Universal Selector */
+* {
+  margin:0;
+  padding:0;  
+}
+
+/* Element Selectors */
+body {
+  position: relative;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  background-color: #f6f5fd;
+  color: #010107;
+}
+
+h1,
+h2 {
+  margin: 20px;
+}
+
+main {
+  padding: 60px 0;
+}
+
+li {
+  display: inline;
+  padding: 0px 20px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #f9f5fd;
+}
+
+header,
+footer {
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+  background-color: blue;
+}
+
+header {
+  position: fixed;
+  border-bottom: 10px solid #DDAF94;
+}
+
+footer {
+  text-align: center;
+  margin-top: 0;
+  bottom: 0;
+  border-bottom: 10px solid #4F4846;
+  color: #FDF8F5;    
+}
+
+figure {
+  margin-bottom: 40px;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+}
+
+section {
+  margin-bottom: 0;
+  padding: 20px 10px 40px 10px;
+  border-top: 3px solid #DDAF94;
+  background-color: orange;
+}
+
+form {
+  /* Center the form on the page */
+  text-align: center;
+  margin: 0 auto;
+  width: 500px;
+  padding: 10px;
+  border: 5px solid #DDAF94;
+  border-radius: 20px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+  
+input, 
+textarea {
+  box-sizing: border-box;
+  width: 300px;
+  border: 1px solid #4F4846;
+}
+
+textarea {
+  vertical-align: top;
+  height: 60px;
+}
+  
+button {
+  height: 40px;
+  width: 120px;
+  background-color: #4F4846;
+  color: #FDF8F5;
+}
+ 
+/* Class Selectors */
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* My original messed up code is below...
+.header-1 {
+    display: block;
+    background-color: orange;
+    position: relative;
+    color: white;
+}
+li {
+  display: inline;
+  padding: 0px 20px;
+  text-decoration: none;
+}
+
+body {
+  position: relative;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  background-color: #FDF8F5;
+  color: #4F4846;
+}
+
+
+  .section-1{
+  display: block;
+  background-color: white;
+  text-align: center;
+  }
+
+  .section-2{
+background-color: orange ;
+text-align: center;
+  }
+
+
+  .text-right{
+    display: block; 
+    text-align: right;
+    position: relative
+  }
+
+  .footer{
+    display: block;
+    text-align: center;
+  }
+  */
